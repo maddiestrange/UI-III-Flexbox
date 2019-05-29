@@ -138,12 +138,11 @@ h1, h2, h3, h4, h5 {
 
 header{
   display: flex;
-  width: 691px;
+  width: 880px;
   justify-content: space-between;
   margin-top: 35px;
   align-items: center;
 }
-* {border: 1px solid red ;}
 
 header nav{
 	width: 70%;
@@ -265,4 +264,23 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+.midbox{
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.box{
+	border: 1px black solid;
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 450px;
+	padding: 20px;
 }
